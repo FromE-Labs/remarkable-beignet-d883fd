@@ -18,17 +18,49 @@
   <meta property="og:description" content="From E™ ONE. Inmersión profesional individual para managers, responsables de área y profesionales senior que quieren operar con IA con mayor capacidad, criterio y control.">
   <link rel="stylesheet" href="/assets/site.css">
 </head>
-<body>
+<body data-i18n="{&quot;articlesPending&quot;: &quot;Selección de artículos en preparación&quot;}">
+<div class="credbar" aria-label="Publicaciones, preprints y artículos sobre IA">
+  <div class="wrap credbar-inner">
+    <span class="lead-in">Publicaciones, preprints y artículos sobre IA</span>
+    <div class="dd">
+      <button type="button" class="dd-btn" aria-haspopup="true" aria-expanded="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm0 2.5L18.5 9H14V4.5zM8 13h8v1.6H8V13zm0 3.2h8v1.6H8v-1.6zM8 9.8h3v1.6H8V9.8z"/></svg>Publicaciones <span class="caret">▾</span></button>
+      <div class="dd-menu" role="menu">
+        <a role="menuitem" class="primary" data-link="zenodo" target="_blank" rel="noopener">Zenodo<small>Preprints, datos y registros científicos</small></a>
+        <div class="dd-sep"></div>
+        <a role="menuitem" data-link="orcid" target="_blank" rel="noopener">ORCID<small>0009-0006-4076-0663</small></a>
+      </div>
+    </div>
+    <div class="dd">
+      <button type="button" class="dd-btn" aria-haspopup="true" aria-expanded="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>LinkedIn <span class="caret">▾</span></button>
+      <div class="dd-menu" role="menu">
+        <a role="menuitem" class="primary" data-link="linkedin" target="_blank" rel="noopener">Perfil profesional<small>Esmeralda García</small></a>
+        <div class="dd-sep"></div>
+        <div class="dd-head">Artículos destacados</div>
+        <div data-articles></div>
+        <div class="dd-sep"></div>
+        <a role="menuitem" data-link="linkedin-articles" target="_blank" rel="noopener">Todos los artículos</a>
+      </div>
+    </div>
+  </div>
+</div>
 <nav aria-label="Navegación principal">
   <div class="wrap nav-inner">
-    <a class="brand" href="#">From<span>E</span>™ <strong style="font-weight:780;letter-spacing:.02em">ONE</strong></a>
+    <a class="brand" href="/es/">From<span>E</span>™ <strong style="font-weight:780;letter-spacing:.02em">ONE</strong></a>
     <div class="navlinks" id="primary-menu">
-      <a href="#principio">Principio</a>
-      <a href="#perfil">Para quién</a>
-      <a href="#capacidades">Capacidades</a>
-      <a href="#direccion">Dirección</a>
+      <div class="dd nav-dd">
+        <button type="button" class="dd-btn" aria-current="page" aria-haspopup="true" aria-expanded="false">From E™ ONE <span class="caret">▾</span></button>
+        <div class="dd-menu" role="menu">
+          <a role="menuitem" href="#principio">Principio</a>
+          <a role="menuitem" href="#perfil">Para quién</a>
+          <a role="menuitem" href="#capacidades">Capacidades</a>
+          <a role="menuitem" href="#direccion">Dirección</a>
+        </div>
+      </div>
+      <a href="/es/agentes-de-frontera/">Agentes de Frontera</a>
+      <a href="/es/skills/">Skills</a>
+      <a href="/es/consultoria/">Consultoría</a>
+      <a href="/es/formacion-equipos/">Formación para equipos</a>
       <a href="#arquitecta">Arquitecta</a>
-      <a href="#acceso">Acceso</a>
       <div class="lang-switch">
         <button type="button" class="lang-btn" aria-haspopup="true" aria-expanded="false" aria-label="Seleccionar idioma">🌐 ES ▾</button>
         <div class="lang-menu" role="menu" hidden>
@@ -39,7 +71,8 @@
       </div>
     </div>
     <div class="nav-actions">
-      <a class="btn" href="#acceso">Acceso privado</a>
+      <a class="btn btn-reserve" href="/es/consultoria/#reservar">Reservar</a>
+      <a class="btn secondary btn-access" href="#acceso">Acceso privado</a>
       <button type="button" class="menu-toggle" aria-expanded="false" aria-controls="primary-menu" aria-label="Abrir menú">
         <span></span><span></span><span></span>
       </button>
@@ -189,7 +222,7 @@
       <aside class="identity">
         <div class="name">Esmeralda García</div>
         <div class="role">Human–AI Coadaptation Architect · AI Governance · Cognitive Systems</div>
-        <p>Arquitecta independiente especializada en interacción humano–IA, gobernanza de sistemas, comportamiento de modelos y diseño de entornos de trabajo avanzados con inteligencia artificial.</p>
+        <p>Arquitecta independiente especializada en interacción humano–IA, gobernanza de sistemas, comportamiento de modelos y diseño de entornos de trabajo avanzados con sistemas de inteligencia artificial de frontera. Opera siempre sobre los últimos modelos de frontera disponibles.</p>
         <div class="profile-tags">
           <span>Non-linear processing</span><span>Parallel reasoning</span><span>Systems thinking</span><span>Anomaly detection</span><span>Cross-domain transfer</span><span>Operational metacognition</span>
         </div>
@@ -198,7 +231,7 @@
       <div>
         <h2>Arquitectura, comportamiento de modelos y dirección humana.</h2>
         <p class="lead">Su trabajo se desarrolla directamente sobre sistemas de IA en funcionamiento: observa simultáneamente la operación humana, el comportamiento del modelo y la estructura de interacción; identifica pérdida de precisión, deriva, fricción o capacidad potencial, y modifica la arquitectura o interviene mientras la operación está ocurriendo.</p>
-        <p>Fundadora de <strong>From E™</strong>, arquitectura independiente desarrollada para estructuración, gobernanza y control de sistemas de inteligencia artificial.</p>
+        <p>Fundadora de <strong>From E™</strong>, arquitectura independiente desarrollada para la estructuración, gobernanza y control de sistemas de inteligencia artificial de frontera.</p>
         <div class="tech-grid">
           <div class="tech"><b>Human–AI interaction architecture</b><span>Context engineering, persistent instructions, memory structures, project architecture y adaptive environments.</span></div>
           <div class="tech"><b>AI governance</b><span>Drift detection, verification, delegation boundaries, human control e intervention logic.</span></div>
@@ -221,6 +254,7 @@
         <div class="stat">8.5<span> min</span></div>
         <h3>Implementación técnica externa</h3>
         <p>Despliegue operativo de From E™ sobre infraestructura independiente en AWS. En las pruebas realizadas se registró además una reducción aproximada del <strong>93 % en consumo de tokens</strong>.</p>
+        <p class="card-link"><a href="https://www.linkedin.com/feed/update/urn:li:activity:7476944207295836160/" target="_blank" rel="noopener">Ver publicación en LinkedIn →</a></p>
       </article>
       <article class="external">
         <div class="k">AGI Community</div>

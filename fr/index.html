@@ -18,19 +18,51 @@
   <meta property="og:description" content="From E™ ONE. Immersion professionnelle individuelle pour les managers, les responsables de service et les professionnels seniors qui souhaitent opérer avec l'IA avec plus de capacité, de discernement et de contrôle.">
   <link rel="stylesheet" href="/assets/site.css">
 </head>
-<body>
+<body data-i18n="{&quot;articlesPending&quot;: &quot;Sélection d'articles en préparation&quot;}">
+<div class="credbar" aria-label="Publications, préprints et articles sur l'IA">
+  <div class="wrap credbar-inner">
+    <span class="lead-in">Publications, préprints et articles sur l'IA</span>
+    <div class="dd">
+      <button type="button" class="dd-btn" aria-haspopup="true" aria-expanded="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm0 2.5L18.5 9H14V4.5zM8 13h8v1.6H8V13zm0 3.2h8v1.6H8v-1.6zM8 9.8h3v1.6H8V9.8z"/></svg>Publications <span class="caret">▾</span></button>
+      <div class="dd-menu" role="menu">
+        <a role="menuitem" class="primary" data-link="zenodo" target="_blank" rel="noopener">Zenodo<small>Préprints, données et enregistrements scientifiques</small></a>
+        <div class="dd-sep"></div>
+        <a role="menuitem" data-link="orcid" target="_blank" rel="noopener">ORCID<small>0009-0006-4076-0663</small></a>
+      </div>
+    </div>
+    <div class="dd">
+      <button type="button" class="dd-btn" aria-haspopup="true" aria-expanded="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>LinkedIn <span class="caret">▾</span></button>
+      <div class="dd-menu" role="menu">
+        <a role="menuitem" class="primary" data-link="linkedin" target="_blank" rel="noopener">Profil professionnel<small>Esmeralda García</small></a>
+        <div class="dd-sep"></div>
+        <div class="dd-head">Articles à la une</div>
+        <div data-articles></div>
+        <div class="dd-sep"></div>
+        <a role="menuitem" data-link="linkedin-articles" target="_blank" rel="noopener">Tous les articles</a>
+      </div>
+    </div>
+  </div>
+</div>
 <nav aria-label="Navigation principale">
   <div class="wrap nav-inner">
-    <a class="brand" href="#">From<span>E</span>™ <strong style="font-weight:780;letter-spacing:.02em">ONE</strong></a>
+    <a class="brand" href="/fr/">From<span>E</span>™ <strong style="font-weight:780;letter-spacing:.02em">ONE</strong></a>
     <div class="navlinks" id="primary-menu">
-      <a href="#principio">Principe</a>
-      <a href="#perfil">Pour qui</a>
-      <a href="#capacidades">Compétences</a>
-      <a href="#direccion">Direction</a>
+      <div class="dd nav-dd">
+        <button type="button" class="dd-btn" aria-current="page" aria-haspopup="true" aria-expanded="false">From E™ ONE <span class="caret">▾</span></button>
+        <div class="dd-menu" role="menu">
+          <a role="menuitem" href="#principio">Principe</a>
+          <a role="menuitem" href="#perfil">Pour qui</a>
+          <a role="menuitem" href="#capacidades">Capacités</a>
+          <a role="menuitem" href="#direccion">Direction</a>
+        </div>
+      </div>
+      <a href="/fr/agents-de-frontiere/">Agents de Frontière</a>
+      <a href="/fr/skills/">Skills</a>
+      <a href="/fr/conseil/">Conseil</a>
+      <a href="/fr/formation-equipes/">Formation équipes</a>
       <a href="#arquitecta">Architecte</a>
-      <a href="#acceso">Accès</a>
       <div class="lang-switch">
-        <button type="button" class="lang-btn" aria-haspopup="true" aria-expanded="false" aria-label="Sélectionner la langue">🌐 FR ▾</button>
+        <button type="button" class="lang-btn" aria-haspopup="true" aria-expanded="false" aria-label="Choisir la langue">🌐 FR ▾</button>
         <div class="lang-menu" role="menu" hidden>
           <a role="menuitem" data-lang="es" hreflang="es" lang="es" href="/es/">ES — Español</a>
           <a role="menuitem" data-lang="en" hreflang="en" lang="en" href="/en/">EN — English</a>
@@ -39,7 +71,8 @@
       </div>
     </div>
     <div class="nav-actions">
-      <a class="btn" href="#acceso">Accès privé</a>
+      <a class="btn btn-reserve" href="/fr/conseil/#reservar">Réserver</a>
+      <a class="btn secondary btn-access" href="#acceso">Accès privé</a>
       <button type="button" class="menu-toggle" aria-expanded="false" aria-controls="primary-menu" aria-label="Ouvrir le menu">
         <span></span><span></span><span></span>
       </button>
@@ -189,7 +222,7 @@
       <aside class="identity">
         <div class="name">Esmeralda García</div>
         <div class="role">Human–AI Coadaptation Architect · AI Governance · Cognitive Systems</div>
-        <p>Architecte indépendante spécialisée dans l'interaction humain–IA, la gouvernance des systèmes, le comportement des modèles et la conception d'environnements de travail avancés avec l'intelligence artificielle.</p>
+        <p>Architecte indépendante spécialisée dans l'interaction humain–IA, la gouvernance des systèmes, le comportement des modèles et la conception d'environnements de travail avancés sur des systèmes d'intelligence artificielle de frontière. Elle opère toujours sur les derniers modèles de frontière disponibles.</p>
         <div class="profile-tags">
           <span>Non-linear processing</span><span>Parallel reasoning</span><span>Systems thinking</span><span>Anomaly detection</span><span>Cross-domain transfer</span><span>Operational metacognition</span>
         </div>
@@ -198,7 +231,7 @@
       <div>
         <h2>Architecture, comportement des modèles et direction humaine.</h2>
         <p class="lead">Son travail se déroule directement sur des systèmes d'IA en fonctionnement : elle observe simultanément l'opération humaine, le comportement du modèle et la structure d'interaction ; elle identifie la perte de précision, la dérive, la friction ou le potentiel de capacité, et modifie l'architecture ou intervient pendant que l'opération se déroule.</p>
-        <p>Fondatrice de <strong>From E™</strong>, architecture indépendante développée pour la structuration, la gouvernance et le contrôle des systèmes d'intelligence artificielle.</p>
+        <p>Fondatrice de <strong>From E™</strong>, architecture indépendante développée pour la structuration, la gouvernance et le contrôle des systèmes d'intelligence artificielle de frontière.</p>
         <div class="tech-grid">
           <div class="tech"><b>Human–AI interaction architecture</b><span>Context engineering, persistent instructions, memory structures, project architecture et adaptive environments.</span></div>
           <div class="tech"><b>AI governance</b><span>Drift detection, verification, delegation boundaries, human control et intervention logic.</span></div>
@@ -221,6 +254,7 @@
         <div class="stat">8.5<span> min</span></div>
         <h3>Mise en œuvre technique externe</h3>
         <p>Déploiement opérationnel de From E™ sur une infrastructure indépendante sur AWS. Les tests réalisés ont également enregistré une réduction approximative de <strong>93 % de la consommation de tokens</strong>.</p>
+        <p class="card-link"><a href="https://www.linkedin.com/feed/update/urn:li:activity:7476944207295836160/" target="_blank" rel="noopener">Voir la publication LinkedIn →</a></p>
       </article>
       <article class="external">
         <div class="k">AGI Community</div>
