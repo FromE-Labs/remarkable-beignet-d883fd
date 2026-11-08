@@ -21,9 +21,9 @@ window.FROME_CONFIG = {
   ],
   // Cal.com — enlaces de cada tipo de evento, formato "usuario/evento"
   cal: {
-    free:  "esmeralda-garcia-jkfxbj/15min",        // Primera conversación · 15 min · gratuita
-    s60:   "esmeralda-garcia-jkfxbj/30min",        // Consultoría puntual · 60 min
-    s120:  "esmeralda-garcia-jkfxbj/30min-copia"   // Intervención aplicada · 120 min
+    free:  "esmeralda-garcia-jkfxbj/primera-conversacion",        // Primera conversación · 15 min · gratuita
+    s60:   "esmeralda-garcia-jkfxbj/consultoria-60",        // Consultoría puntual · 60 min
+    s120:  "esmeralda-garcia-jkfxbj/intervencion-120"   // Intervención aplicada · 120 min
   }
 };
 
