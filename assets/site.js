@@ -15,7 +15,11 @@ window.FROME_CONFIG = {
   articles: [
     { title: "Clinical Trial Governance Architecture — Part II", url: "https://www.linkedin.com/pulse/clinical-trial-governance-architecture-part-ii-limi-esmeralda-garc%C3%ADa-ke0ke/" },
     { title: "FromE ONE · Case 01: Closing the First Phase of Adoption", url: "https://www.linkedin.com/pulse/august-2026-frome-one-case-01-closing-first-phase-adoption-garc%C3%ADa-qjrie/" },
-    { title: "Publicación destacada", url: "https://www.linkedin.com/feed/update/urn:li:activity:7440487450335956992/" }
+    { title: "Publicación destacada · 1", url: "https://www.linkedin.com/feed/update/urn:li:activity:7440487450335956992/" },
+    { title: "Publicación destacada · 2", url: "https://www.linkedin.com/feed/update/urn:li:activity:7489654686074097664/" },
+    { title: "Publicación destacada · 3", url: "https://www.linkedin.com/feed/update/urn:li:activity:7500144061094227968/" },
+    { title: "Publicación destacada · 4", url: "https://www.linkedin.com/feed/update/urn:li:activity:7486709274396626945/" },
+    { title: "Publicación destacada · 5", url: "https://www.linkedin.com/feed/update/urn:li:activity:7484160218491191296/" }
   ],
   // Cal.com — enlaces de cada tipo de evento, formato "usuario/evento"
   cal: {
