@@ -9,6 +9,27 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://remarkable-beignet-d883fd.netlify.app/es/"/>
   </url>
   <url>
+    <loc>https://remarkable-beignet-d883fd.netlify.app/es/consultoria/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://remarkable-beignet-d883fd.netlify.app/es/consultoria/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://remarkable-beignet-d883fd.netlify.app/en/consulting/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://remarkable-beignet-d883fd.netlify.app/fr/conseil/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://remarkable-beignet-d883fd.netlify.app/es/consultoria/"/>
+  </url>
+  <url>
+    <loc>https://remarkable-beignet-d883fd.netlify.app/es/skills/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://remarkable-beignet-d883fd.netlify.app/es/skills/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://remarkable-beignet-d883fd.netlify.app/en/skills/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://remarkable-beignet-d883fd.netlify.app/fr/skills/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://remarkable-beignet-d883fd.netlify.app/es/skills/"/>
+  </url>
+  <url>
+    <loc>https://remarkable-beignet-d883fd.netlify.app/es/agentes-de-frontera/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://remarkable-beignet-d883fd.netlify.app/es/agentes-de-frontera/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://remarkable-beignet-d883fd.netlify.app/en/frontier-agents/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://remarkable-beignet-d883fd.netlify.app/fr/agents-de-frontiere/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://remarkable-beignet-d883fd.netlify.app/es/agentes-de-frontera/"/>
+  </url>
+  <url>
     <loc>https://remarkable-beignet-d883fd.netlify.app/en/</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://remarkable-beignet-d883fd.netlify.app/es/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://remarkable-beignet-d883fd.netlify.app/en/"/>
@@ -16,10 +37,52 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://remarkable-beignet-d883fd.netlify.app/es/"/>
   </url>
   <url>
+    <loc>https://remarkable-beignet-d883fd.netlify.app/en/consulting/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://remarkable-beignet-d883fd.netlify.app/es/consultoria/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://remarkable-beignet-d883fd.netlify.app/en/consulting/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://remarkable-beignet-d883fd.netlify.app/fr/conseil/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://remarkable-beignet-d883fd.netlify.app/es/consultoria/"/>
+  </url>
+  <url>
+    <loc>https://remarkable-beignet-d883fd.netlify.app/en/skills/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://remarkable-beignet-d883fd.netlify.app/es/skills/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://remarkable-beignet-d883fd.netlify.app/en/skills/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://remarkable-beignet-d883fd.netlify.app/fr/skills/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://remarkable-beignet-d883fd.netlify.app/es/skills/"/>
+  </url>
+  <url>
+    <loc>https://remarkable-beignet-d883fd.netlify.app/en/frontier-agents/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://remarkable-beignet-d883fd.netlify.app/es/agentes-de-frontera/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://remarkable-beignet-d883fd.netlify.app/en/frontier-agents/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://remarkable-beignet-d883fd.netlify.app/fr/agents-de-frontiere/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://remarkable-beignet-d883fd.netlify.app/es/agentes-de-frontera/"/>
+  </url>
+  <url>
     <loc>https://remarkable-beignet-d883fd.netlify.app/fr/</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://remarkable-beignet-d883fd.netlify.app/es/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://remarkable-beignet-d883fd.netlify.app/en/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://remarkable-beignet-d883fd.netlify.app/fr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://remarkable-beignet-d883fd.netlify.app/es/"/>
+  </url>
+  <url>
+    <loc>https://remarkable-beignet-d883fd.netlify.app/fr/conseil/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://remarkable-beignet-d883fd.netlify.app/es/consultoria/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://remarkable-beignet-d883fd.netlify.app/en/consulting/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://remarkable-beignet-d883fd.netlify.app/fr/conseil/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://remarkable-beignet-d883fd.netlify.app/es/consultoria/"/>
+  </url>
+  <url>
+    <loc>https://remarkable-beignet-d883fd.netlify.app/fr/skills/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://remarkable-beignet-d883fd.netlify.app/es/skills/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://remarkable-beignet-d883fd.netlify.app/en/skills/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://remarkable-beignet-d883fd.netlify.app/fr/skills/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://remarkable-beignet-d883fd.netlify.app/es/skills/"/>
+  </url>
+  <url>
+    <loc>https://remarkable-beignet-d883fd.netlify.app/fr/agents-de-frontiere/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://remarkable-beignet-d883fd.netlify.app/es/agentes-de-frontera/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://remarkable-beignet-d883fd.netlify.app/en/frontier-agents/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://remarkable-beignet-d883fd.netlify.app/fr/agents-de-frontiere/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://remarkable-beignet-d883fd.netlify.app/es/agentes-de-frontera/"/>
   </url>
 </urlset>

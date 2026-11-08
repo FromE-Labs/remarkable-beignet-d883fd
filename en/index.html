@@ -18,10 +18,34 @@
   <meta property="og:description" content="From E™ ONE. Individual professional immersion for managers, area leads, and senior professionals who want to operate with AI with greater capability, judgment, and control.">
   <link rel="stylesheet" href="/assets/site.css">
 </head>
-<body>
+<body data-i18n="{&quot;articlesPending&quot;: &quot;Article selection in preparation&quot;}">
+<div class="credbar" aria-label="Publications, preprints and articles on AI">
+  <div class="wrap credbar-inner">
+    <span class="lead-in">Publications, preprints and articles on AI</span>
+    <div class="dd">
+      <button type="button" class="dd-btn" aria-haspopup="true" aria-expanded="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm0 2.5L18.5 9H14V4.5zM8 13h8v1.6H8V13zm0 3.2h8v1.6H8v-1.6zM8 9.8h3v1.6H8V9.8z"/></svg>Publications <span class="caret">▾</span></button>
+      <div class="dd-menu" role="menu">
+        <a role="menuitem" class="primary" data-link="zenodo" target="_blank" rel="noopener">Zenodo<small>Preprints, data and scientific records</small></a>
+        <div class="dd-sep"></div>
+        <a role="menuitem" data-link="orcid" target="_blank" rel="noopener">ORCID<small>0009-0006-4076-0663</small></a>
+      </div>
+    </div>
+    <div class="dd">
+      <button type="button" class="dd-btn" aria-haspopup="true" aria-expanded="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>LinkedIn <span class="caret">▾</span></button>
+      <div class="dd-menu" role="menu">
+        <a role="menuitem" class="primary" data-link="linkedin" target="_blank" rel="noopener">Professional profile<small>Esmeralda García</small></a>
+        <div class="dd-sep"></div>
+        <div class="dd-head">Featured articles</div>
+        <div data-articles></div>
+        <div class="dd-sep"></div>
+        <a role="menuitem" data-link="linkedin-articles" target="_blank" rel="noopener">All articles</a>
+      </div>
+    </div>
+  </div>
+</div>
 <nav aria-label="Main navigation">
   <div class="wrap nav-inner">
-    <a class="brand" href="#">From<span>E</span>™ <strong style="font-weight:780;letter-spacing:.02em">ONE</strong></a>
+    <a class="brand" href="/en/">From<span>E</span>™ <strong style="font-weight:780;letter-spacing:.02em">ONE</strong></a>
     <div class="navlinks" id="primary-menu">
       <a href="#principio">Principle</a>
       <a href="#perfil">Who it's for</a>
@@ -29,6 +53,14 @@
       <a href="#direccion">Direction</a>
       <a href="#arquitecta">Architect</a>
       <a href="#acceso">Access</a>
+      <div class="dd nav-dd">
+        <button type="button" class="dd-btn" aria-haspopup="true" aria-expanded="false">Services <span class="caret">▾</span></button>
+        <div class="dd-menu" role="menu">
+          <a role="menuitem" href="/en/consulting/">Consulting<small>Problem-solving and bookings</small></a>
+          <a role="menuitem" href="/en/skills/">Skills<small>Skills with built-in governance</small></a>
+          <a role="menuitem" href="/en/frontier-agents/">Frontier Agents<small>Custom build and training</small></a>
+        </div>
+      </div>
       <div class="lang-switch">
         <button type="button" class="lang-btn" aria-haspopup="true" aria-expanded="false" aria-label="Select language">🌐 EN ▾</button>
         <div class="lang-menu" role="menu" hidden>
