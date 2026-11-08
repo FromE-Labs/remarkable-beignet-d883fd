@@ -322,3 +322,6 @@ select:focus{border-color:var(--accent)}
   .nav-dd .dd-menu a{padding:14px 4px;font-size:15px;border-bottom:1px solid var(--line);color:#dfe6ec}
   .nav-dd .dd-menu a small{color:#8a97a4}
 }
+.external .card-link{margin-top:16px!important;font-size:12px}
+.external .card-link a{color:var(--accent);font-weight:700;letter-spacing:.02em}
+.external .card-link a:hover{text-decoration:underline}

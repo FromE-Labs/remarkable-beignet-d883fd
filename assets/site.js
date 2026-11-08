@@ -6,15 +6,16 @@
 ------------------------------------------------------------------- */
 window.FROME_CONFIG = {
   links: {
-    linkedin: "",                                   // p. ej. "https://www.linkedin.com/in/usuario/"
-    linkedinArticles: "",                           // p. ej. "https://www.linkedin.com/in/usuario/recent-activity/articles/"
-    zenodo: "",                                     // p. ej. "https://zenodo.org/search?q=..." o perfil de comunidad
+    linkedin: "https://www.linkedin.com/in/esmeralda-garc%C3%ADa-2a691414/",
+    linkedinArticles: "https://www.linkedin.com/in/esmeralda-garc%C3%ADa-2a691414/recent-activity/articles/",
+    zenodo: "https://zenodo.org/records/19056589",
     orcid: "https://orcid.org/0009-0006-4076-0663"
   },
-  // Artículos destacados de LinkedIn (se sustituyen por los definitivos)
+  // Artículos destacados de LinkedIn (orden de aparición en el desplegable)
   articles: [
-    { title: "", url: "" },
-    { title: "", url: "" }
+    { title: "Clinical Trial Governance Architecture — Part II", url: "https://www.linkedin.com/pulse/clinical-trial-governance-architecture-part-ii-limi-esmeralda-garc%C3%ADa-ke0ke/" },
+    { title: "FromE ONE · Case 01: Closing the First Phase of Adoption", url: "https://www.linkedin.com/pulse/august-2026-frome-one-case-01-closing-first-phase-adoption-garc%C3%ADa-qjrie/" },
+    { title: "Publicación destacada", url: "https://www.linkedin.com/feed/update/urn:li:activity:7440487450335956992/" }
   ],
   // Cal.com — enlaces de cada tipo de evento, formato "usuario/evento"
   cal: {
