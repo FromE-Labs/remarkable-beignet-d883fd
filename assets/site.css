@@ -147,7 +147,7 @@ textarea{min-height:125px;resize:vertical}
 .legal{font-size:11px;color:#71808e;margin-top:10px}
 footer{padding:30px 0 54px;color:#788491;font-size:11px}
 .footer-inner{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
-@media(max-width:950px){
+@media(max-width:1180px){
   .menu-toggle{display:flex}
   .navlinks{
     display:none;
@@ -218,7 +218,7 @@ html[lang="fr"] a.pending::after{content:" · en attente"}
 .navlinks{gap:22px;font-size:13px}
 .navlinks a[aria-current="page"]{color:#fff}
 .navlinks a[aria-current="page"]::after{transform:scaleX(1)}
-@media(max-width:1100px) and (min-width:951px){.navlinks{gap:16px;font-size:12.5px}}
+@media(max-width:1366px) and (min-width:1181px){.navlinks{gap:16px;font-size:12.5px}}
 
 /* ===================== Ampliación: servicios y reservas ===================== */
 .services{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:34px}
@@ -293,7 +293,7 @@ select:focus{border-color:var(--accent)}
 .status-page{padding:120px 0 100px;min-height:60vh}
 .status-page .wrap{max-width:860px}
 
-@media(max-width:950px){
+@media(max-width:1180px){
   .credbar-inner{justify-content:space-between}
   .credbar .lead-in{display:none}
   .dd-menu{right:auto;left:0}
@@ -315,7 +315,7 @@ select:focus{border-color:var(--accent)}
 .nav-dd .dd-menu a{padding:12px 14px}
 .navlinks .dd-menu a::after{display:none}
 .navlinks .dd-menu a[aria-current="page"]{color:#fff;background:var(--accent-soft)}
-@media(max-width:950px){
+@media(max-width:1180px){
   .nav-dd{width:100%}
   .nav-dd .dd-btn{display:none}
   .nav-dd .dd-menu{position:static;opacity:1;visibility:visible;transform:none;border:0;padding:0;background:transparent;min-width:0}
@@ -328,5 +328,5 @@ select:focus{border-color:var(--accent)}
 
 /* ===================== Ampliación: botón Reservar en cabecera ===================== */
 .nav-actions .btn{min-height:44px;padding:0 16px}
-@media(max-width:950px){.nav-actions .btn-access{display:none}}
+@media(max-width:1180px){.nav-actions .btn-access{display:none}}
 @media(max-width:560px){.nav-actions .btn-reserve{width:auto}}

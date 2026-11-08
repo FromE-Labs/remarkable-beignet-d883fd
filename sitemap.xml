@@ -30,6 +30,13 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://remarkable-beignet-d883fd.netlify.app/es/agentes-de-frontera/"/>
   </url>
   <url>
+    <loc>https://remarkable-beignet-d883fd.netlify.app/es/formacion-equipos/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://remarkable-beignet-d883fd.netlify.app/es/formacion-equipos/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://remarkable-beignet-d883fd.netlify.app/en/team-training/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://remarkable-beignet-d883fd.netlify.app/fr/formation-equipes/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://remarkable-beignet-d883fd.netlify.app/es/formacion-equipos/"/>
+  </url>
+  <url>
     <loc>https://remarkable-beignet-d883fd.netlify.app/en/</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://remarkable-beignet-d883fd.netlify.app/es/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://remarkable-beignet-d883fd.netlify.app/en/"/>
@@ -58,6 +65,13 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://remarkable-beignet-d883fd.netlify.app/es/agentes-de-frontera/"/>
   </url>
   <url>
+    <loc>https://remarkable-beignet-d883fd.netlify.app/en/team-training/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://remarkable-beignet-d883fd.netlify.app/es/formacion-equipos/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://remarkable-beignet-d883fd.netlify.app/en/team-training/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://remarkable-beignet-d883fd.netlify.app/fr/formation-equipes/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://remarkable-beignet-d883fd.netlify.app/es/formacion-equipos/"/>
+  </url>
+  <url>
     <loc>https://remarkable-beignet-d883fd.netlify.app/fr/</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://remarkable-beignet-d883fd.netlify.app/es/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://remarkable-beignet-d883fd.netlify.app/en/"/>
@@ -84,5 +98,12 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://remarkable-beignet-d883fd.netlify.app/en/frontier-agents/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://remarkable-beignet-d883fd.netlify.app/fr/agents-de-frontiere/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://remarkable-beignet-d883fd.netlify.app/es/agentes-de-frontera/"/>
+  </url>
+  <url>
+    <loc>https://remarkable-beignet-d883fd.netlify.app/fr/formation-equipes/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://remarkable-beignet-d883fd.netlify.app/es/formacion-equipos/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://remarkable-beignet-d883fd.netlify.app/en/team-training/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://remarkable-beignet-d883fd.netlify.app/fr/formation-equipes/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://remarkable-beignet-d883fd.netlify.app/es/formacion-equipos/"/>
   </url>
 </urlset>
