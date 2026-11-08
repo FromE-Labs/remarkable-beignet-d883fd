@@ -325,3 +325,8 @@ select:focus{border-color:var(--accent)}
 .external .card-link{margin-top:16px!important;font-size:12px}
 .external .card-link a{color:var(--accent);font-weight:700;letter-spacing:.02em}
 .external .card-link a:hover{text-decoration:underline}
+
+/* ===================== Ampliación: botón Reservar en cabecera ===================== */
+.nav-actions .btn{min-height:44px;padding:0 16px}
+@media(max-width:950px){.nav-actions .btn-access{display:none}}
+@media(max-width:560px){.nav-actions .btn-reserve{width:auto}}
