@@ -14,10 +14,10 @@ window.FROME_CONFIG = {
   // Artículos destacados de LinkedIn (orden de aparición en el desplegable)
   articles: [
     { title: "Cognitive Coupling: When Intelligence Stops Existing in Just One Place", url: "https://www.linkedin.com/feed/update/urn:li:activity:7489654686074097664/" },
-    { title: "Publicación destacada · 2", url: "https://www.linkedin.com/feed/update/urn:li:activity:7500144061094227968/" },
-    { title: "Publicación destacada · 3", url: "https://www.linkedin.com/feed/update/urn:li:activity:7486709274396626945/" },
-    { title: "Publicación destacada · 4", url: "https://www.linkedin.com/feed/update/urn:li:activity:7484160218491191296/" },
-    { title: "Publicación destacada · 5", url: "https://www.linkedin.com/feed/update/urn:li:activity:7486392225208324096/" }
+    { title: "FromE ONE · Case 01: Closing the First Phase. Accelerated Operational Adoption of AI", url: "https://www.linkedin.com/feed/update/urn:li:activity:7500144061094227968/" },
+    { title: "Beneath Judgment Lies Criterion", url: "https://www.linkedin.com/feed/update/urn:li:activity:7486709274396626945/" },
+    { title: "The Mirror: \"That's Made with AI\" No Longer Means What You Think", url: "https://www.linkedin.com/feed/update/urn:li:activity:7484160218491191296/" },
+    { title: "The Casino Can't Regulate the Game", url: "https://www.linkedin.com/feed/update/urn:li:activity:7486392225208324096/" }
   ],
   // Cal.com — enlaces de cada tipo de evento, formato "usuario/evento"
   cal: {
