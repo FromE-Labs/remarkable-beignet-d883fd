@@ -330,3 +330,9 @@ select:focus{border-color:var(--accent)}
 .nav-actions .btn{min-height:44px;padding:0 16px}
 @media(max-width:1180px){.nav-actions .btn-access{display:none}}
 @media(max-width:560px){.nav-actions .btn-reserve{width:auto}}
+
+/* ===================== Ajustes de textos (nov-2026) ===================== */
+form small.help{display:block;margin-top:6px;font-size:11.5px;color:#8a97a4;letter-spacing:0;text-transform:none;font-weight:500;line-height:1.45}
+.price-note{font-size:14px;color:#c1cad3;border-left:1px solid var(--accent);padding:4px 0 4px 18px;margin:0 0 26px}
+.price-note strong{color:#fff}
+select{appearance:auto;-webkit-appearance:auto;background-image:none;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;line-height:1.3;min-height:48px;padding-right:15px;color-scheme:dark}
