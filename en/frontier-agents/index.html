@@ -58,7 +58,7 @@
       </div>
       <a href="/en/frontier-agents/" aria-current="page">Frontier Agents</a>
       <a href="/en/skills/">Skills</a>
-      <a href="/en/consulting/">Consulting</a>
+      <a href="/en/consulting/">Intervention</a>
       <a href="/en/team-training/">Team training</a>
       <a href="/en/#arquitecta">Architect</a>
       <div class="lang-switch">
@@ -85,7 +85,7 @@
     <div class="private">Custom build · Training to manage them</div>
     <div class="eyebrow">From E™ ONE · Frontier Agents</div>
     <h1 style="font-size:clamp(48px,7.4vw,100px);letter-spacing:-.06em;line-height:.92">Frontier Agents.</h1>
-    <p class="hero-sub">Agents built on the best models available, for one specific organisation, with the people who will govern them inside.</p>
+    <p class="hero-sub">AI agents built on frontier models, designed for your organisation and ready to operate under a defined governance architecture.</p>
     <div class="hero-grid">
       <div>
         <p class="hero-copy">A frontier agent does real work: it researches, processes, decides within limits and delivers. <strong>From E™ always builds them on frontier models and under its own governance architecture, specifically for whoever commissions them, and trains the people who will direct them.</strong></p>
@@ -187,16 +187,14 @@
       </div>
       <div><label>Company / position</label><input name="empresa"></div>
       <div><label>What work should the agent perform?</label><textarea name="trabajo" required></textarea></div>
-      <div><label>Which systems, data or tools will it need to operate with?</label><input name="sistemas"></div>
-      <div class="row">
-        <div><label>Who will direct it within the organisation?</label><input name="responsable"></div>
-        <div><label>Training interest</label>
-          <select name="formacion">
+      <div><label>Which systems, tools or information should it work with?</label><input name="sistemas"><small class="help">If this is not yet defined, we can determine it during the initial analysis.</small></div>
+      <div><label>Who will direct it within the organisation?</label><input name="responsable"></div>
+      <div><label>Training interest</label>
+        <select name="formacion">
             <option>Training included with the build</option>
             <option>Training only, for existing agents</option>
             <option>To be defined</option>
           </select>
-        </div>
       </div>
       <label class="checkline"><input type="checkbox" name="consentimiento" value="si" required> I agree that this data is used solely to handle my request.</label>
       <button class="btn" type="submit">Request proposal</button>
