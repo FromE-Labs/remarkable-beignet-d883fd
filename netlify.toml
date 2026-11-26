@@ -1,3 +1,11 @@
+# La raíz no es una página: redirige siempre a la portada en español,
+# idioma principal de la web. /en/ y /fr/ son las otras dos portadas.
+[[redirects]]
+  from = "/"
+  to = "/es/"
+  status = 301
+  force = true
+
 [[headers]]
   for = "/*"
   [headers.values]
