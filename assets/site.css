@@ -147,6 +147,8 @@ textarea{min-height:125px;resize:vertical}
 .legal{font-size:11px;color:#71808e;margin-top:10px}
 footer{padding:30px 0 54px;color:#788491;font-size:11px}
 .footer-inner{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+.footer-contact a{color:#a6b0ba}
+.footer-contact a:hover{color:#fff}
 @media(max-width:1180px){
   .menu-toggle{display:flex}
   .navlinks{
