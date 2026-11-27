@@ -10,7 +10,6 @@ function gtag(){dataLayer.push(arguments);}
   try { saved = localStorage.getItem('fe_consent'); } catch (e) {}
   if (saved === 'granted') gtag('consent', 'update', ALL);
   gtag('js', new Date());
-  gtag('config', ID);
   var s = document.createElement('script');
   s.async = true;
   s.src = 'https://www.googletagmanager.com/gtm.js?id=' + ID;
