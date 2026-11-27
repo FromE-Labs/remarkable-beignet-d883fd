@@ -342,3 +342,10 @@ select{appearance:auto;-webkit-appearance:auto;background-image:none;text-overfl
 .wa-float:hover{transform:scale(1.07)}
 @media (max-width:600px){.wa-float{right:16px;bottom:16px;width:54px;height:54px}}
 @media print{.wa-float{display:none}}
+.consent{position:fixed;left:22px;bottom:22px;z-index:901;max-width:380px;background:#0e1319;border:1px solid #2a3540;border-radius:12px;padding:16px 18px;box-shadow:0 8px 28px rgba(0,0,0,.5);font-size:13px;line-height:1.5;color:#c9d2da}
+.consent p{margin:0 0 12px}
+.consent div{display:flex;gap:10px;justify-content:flex-end}
+.consent button{font:inherit;font-weight:600;padding:8px 14px;border-radius:8px;border:1px solid #34414d;background:transparent;color:#c9d2da;cursor:pointer}
+.consent .consent-yes{background:#2ca9ff;border-color:#2ca9ff;color:#06080b}
+@media (max-width:600px){.consent{left:12px;right:82px;bottom:12px;max-width:none}}
+@media print{.consent{display:none}}
