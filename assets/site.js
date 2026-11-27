@@ -210,3 +210,23 @@ window.FROME_CONFIG = {
     });
   });
 })();
+
+// Botón flotante de WhatsApp en todas las páginas.
+(function () {
+  var lang = (location.pathname.split('/')[1] || 'es');
+  var t = {
+    es: ['Escríbeme por WhatsApp', 'Hola, vengo de frome-one.com y quiero información sobre '],
+    en: ['Message me on WhatsApp', "Hello, I'm coming from frome-one.com and I'd like information about "],
+    fr: ['Écrivez-moi sur WhatsApp', 'Bonjour, je viens de frome-one.com et je souhaite des informations sur ']
+  }[lang] || null;
+  if (!t || document.querySelector('.wa-float')) return;
+  var a = document.createElement('a');
+  a.className = 'wa-float';
+  a.href = 'https://wa.me/34627761640?text=' + encodeURIComponent(t[1]);
+  a.target = '_blank';
+  a.rel = 'noopener';
+  a.setAttribute('aria-label', t[0]);
+  a.title = t[0];
+  a.innerHTML = '<svg viewBox="0 0 32 32" width="30" height="30" aria-hidden="true"><path fill="#fff" d="M16 3C9 3 3.3 8.6 3.3 15.6c0 2.5.7 4.8 1.9 6.8L3 29l6.8-2.1c1.9 1 4 1.6 6.2 1.6 7 0 12.7-5.6 12.7-12.6S23 3 16 3zm0 23.1c-2 0-3.9-.6-5.5-1.6l-.4-.2-4 1.2 1.3-3.9-.3-.4c-1.1-1.7-1.7-3.6-1.7-5.6 0-5.8 4.8-10.5 10.6-10.5s10.6 4.7 10.6 10.5S21.8 26.1 16 26.1zm5.8-7.9c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-.3-.2-1.3-.5-2.5-1.6-.9-.8-1.6-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.5-.6c.2-.2.2-.3.3-.6.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.1-1.2 2.8s1.2 3.2 1.4 3.4c.2.2 2.4 3.6 5.7 5.1.8.3 1.4.5 1.9.7.8.3 1.5.2 2.1.1.6-.1 1.9-.8 2.2-1.5.3-.7.3-1.4.2-1.5-.1-.1-.3-.2-.6-.4z"/></svg>';
+  document.body.appendChild(a);
+})();
