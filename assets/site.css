@@ -75,6 +75,9 @@ nav{
 }
 .btn:hover{transform:translateY(-1px);filter:brightness(1.06)}
 .btn.secondary{background:transparent;border-color:#34414d;color:var(--text)}
+.btn.wa{background:transparent;border-color:#25d366;color:#25d366}
+.btn.wa::before{content:"";width:8px;height:8px;border-radius:50%;background:#25d366;margin-right:9px}
+.btn.wa:hover{background:rgba(37,211,102,.1)}
 .private{
   display:inline-flex;align-items:center;gap:9px;margin-bottom:28px;
   font-size:11px;letter-spacing:.15em;text-transform:uppercase;color:#c6d0d9;font-weight:760
